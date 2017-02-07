@@ -12,7 +12,6 @@ WORKDIR /usr/local/src/DockerWebAPI
 # 将当前文件夹下的所有文件全部复制到工作目录
 COPY *.* ./
  
-# 向外界暴露5000端口
 EXPOSE 5000
  
 # 执行dotnet DockerWebAPI.dll命令
