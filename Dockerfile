@@ -17,4 +17,4 @@ COPY *.* ./
 EXPOSE 5000
  
 # ÷¥––dotnet DockerWebAPI.dll√¸¡Ó
-CMD ["dotnet", "DockerWebAPI.dll"]
+CMD ["dotnet", "WebApplication1.dll"]
